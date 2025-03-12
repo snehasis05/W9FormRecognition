@@ -17,6 +17,10 @@ if not AZURE_ENDPOINT or not AZURE_API_KEY:
 
 document_analysis_client = DocumentAnalysisClient(AZURE_ENDPOINT, AzureKeyCredential(AZURE_API_KEY))
 
+@app.get("/")
+def read_root():
+    return {"message": "W-9 API is running!"}
+
 @app.post("/extract_w9")
 async def extract_w9_data(file: UploadFile = File(...)):
     """Extracts key information from a W-9 form PDF."""
