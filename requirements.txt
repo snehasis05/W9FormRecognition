@@ -5,3 +5,4 @@ streamlit
 requests
 pydantic
 python-dotenv
+azure-ai-formrecognizer
