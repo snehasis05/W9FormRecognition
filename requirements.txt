@@ -1,0 +1,7 @@
+azure-ai-documentintelligence
+fastapi
+uvicorn
+streamlit
+requests
+pydantic
+python-dotenv
