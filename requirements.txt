@@ -6,3 +6,4 @@ requests
 pydantic
 python-dotenv
 azure-ai-formrecognizer
+python-multipart
